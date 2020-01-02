@@ -1,0 +1,4 @@
+﻿__pycache__
+.editorconfig
+.env
+db.sqlite3
