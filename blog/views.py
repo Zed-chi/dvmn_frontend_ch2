@@ -33,6 +33,7 @@ def index(request):
 def post_detail(request, slug):
     post = Post.objects.get(slug=slug)
     comments = Comment.objects.filter(post=post)
+    print(len(comments))
     serialized_comments = []
     for comment in comments:
         serialized_comments.append(
@@ -46,7 +47,7 @@ def post_detail(request, slug):
     serialized_post = {
         "title": post.title,
         "text": post.text,
-        "author": post.author.username,
+        "author": post.author.username,        
         "comments": serialized_comments,
         "likes_amount": post.likes.count(),
         "image_url": post.image.url if post.image else None,
