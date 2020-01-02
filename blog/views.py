@@ -7,7 +7,7 @@ import folium
 def serialize_post(post):
     return {
         "title": post.title,
-        "text": post.text,
+        "text": post.text[:150],
         "author": post.author.username,
         "comments_amount": Comment.objects.filter(post=post).count(),
         "image_url": post.image.url if post.image else None,
