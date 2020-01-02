@@ -2,3 +2,4 @@
 .editorconfig
 .env
 db.sqlite3
+.vscode
