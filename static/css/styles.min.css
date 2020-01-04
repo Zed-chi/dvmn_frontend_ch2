@@ -10756,7 +10756,7 @@ a {
 
 .hero-banner {
     position: relative;
-    background: url(img/hero-banner.png) left center no-repeat;
+    background: url(/static/img/banner.png) left center no-repeat;
     background-size: cover;
     height: 400px;
     z-index: 1
@@ -18204,8 +18204,8 @@ a {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/fa-brands-400.eot);
-    src: url(fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(fonts/fa-brands-400.woff2) format("woff2"), url(fonts/fa-brands-400.woff) format("woff"), url(fonts/fa-brands-400.ttf) format("truetype"), url(fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(/static/fonts/fa-brands-400.eot);
+    src: url(/static/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(/static/fonts/fa-brands-400.woff2) format("woff2"), url(/static/fonts/fa-brands-400.woff) format("woff"), url(/static/fonts/fa-brands-400.ttf) format("truetype"), url(/static/fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -18216,8 +18216,8 @@ a {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/fa-regular-400.eot);
-    src: url(fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(fonts/fa-regular-400.woff2) format("woff2"), url(fonts/fa-regular-400.woff) format("woff"), url(fonts/fa-regular-400.ttf) format("truetype"), url(fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(/static/fonts/fa-regular-400.eot);
+    src: url(/static/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(/static/fonts/fa-regular-400.woff2) format("woff2"), url(/static/fonts/fa-regular-400.woff) format("woff"), url(/static/fonts/fa-regular-400.ttf) format("truetype"), url(/static/fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -18228,8 +18228,8 @@ a {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 900;
-    src: url(fonts/fa-solid-900.eot);
-    src: url(fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(fonts/fa-solid-900.woff2) format("woff2"), url(fonts/fa-solid-900.woff) format("woff"), url(fonts/fa-solid-900.ttf) format("truetype"), url(fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(/static/fonts/fa-solid-900.eot);
+    src: url(/static/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(/static/fonts/fa-solid-900.woff2) format("woff2"), url(/static/fonts/fa-solid-900.woff) format("woff"), url(/static/fonts/fa-solid-900.ttf) format("truetype"), url(/static/fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -18245,8 +18245,8 @@ a {
 
 @font-face {
     font-family: 'Linearicons-Free';
-    src: url('fonts/Linearicons-Free.eot?w118d');
-    src: url('fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'), url('fonts/Linearicons-Free.woff2?w118d') format('woff2'), url('fonts/Linearicons-Free.woff?w118d') format('woff'), url('fonts/Linearicons-Free.ttf?w118d') format('truetype'), url('fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+    src: url('/static/fonts/Linearicons-Free.eot?w118d');
+    src: url('/static/fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'), url('/static/fonts/Linearicons-Free.woff2?w118d') format('woff2'), url('/static/fonts/Linearicons-Free.woff?w118d') format('woff'), url('/static/fonts/Linearicons-Free.ttf?w118d') format('truetype'), url('/static/fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -18946,8 +18946,8 @@ a {
 
 @font-face {
     font-family: 'themify';
-    src: url('fonts/themify.eot?-fvbane');
-    src: url('fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'), url('fonts/themify.woff?-fvbane') format('woff'), url('fonts/themify.ttf?-fvbane') format('truetype'), url('fonts/themify.svg?-fvbane#themify') format('svg');
+    src: url('/static/fonts/themify.eot?-fvbane');
+    src: url('/static/fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'), url('/static/fonts/themify.woff?-fvbane') format('woff'), url('/static/fonts/themify.ttf?-fvbane') format('truetype'), url('/static/fonts/themify.svg?-fvbane#themify') format('svg');
     font-weight: normal;
     font-style: normal;
 }
