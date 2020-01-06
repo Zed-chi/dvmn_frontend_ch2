@@ -97,6 +97,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 STATIC_ROOT = os.getenv("STATIC_ROOT", None)
 
-MEDIA_URL = os.getenv("MEDIA_URL", "media")
+MEDIA_URL = os.getenv("MEDIA_URL", "/media/")
 
 INTERNAL_IPS = ["127.0.0.1"]
